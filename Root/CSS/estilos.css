@@ -1,0 +1,50 @@
+@import url.('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+#body1{
+	font-family: 'Quicksand', sans-serif;
+}
+#imagen1{
+	background-image: url(../Imagenes/imagen1.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+}
+#imagen1 .titulo{
+	font-size: 5rem;
+	background-color: #3439574f;
+}
+#imagen1 p{
+	font-size: 2rem;
+}
+@media all and (max-width: 768px){
+	#imagen1 .titulo{
+		font-size: 3rem;
+	}
+}
+#body2{
+	font-family: 'Quicksand', sans-serif;
+}
+.titulo2{
+	font-size: 5rem;
+	text-align: center;
+}
+.mt-3{
+	font-size: 2rem;
+	text-align: center;
+}
+@media all and (max-width: 768px){
+	.row{
+		flex-direction: column;
+	}
+}
+.card-footer{
+	background-color: #21252980;
+}
+.card-footer p{
+	font-family: 'Quicksand', sans-serif;
+}
